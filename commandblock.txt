@@ -1,0 +1,102 @@
+/summon FallingSand ~ ~5 ~
+{Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~-1 ~ ~ ~-1 ~-18 ~ minecraft:redstone_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/give @a minecraft:snowball 1 0 {HideFlags:127,ench:[{id:34,lvl:10}]}"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/say Ready."},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-79 ~ ~ ~-79 ~ ~19 ~-90 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-79 ~ ~ ~-79 ~ ~19 ~-90 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-79 ~ ~ ~-79 ~ ~19 ~-90 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~18 ~-88 ~-2 minecraft:unpowered_repeater 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~17 ~-87 ~-3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~17 ~-86 ~-1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~17 ~-86 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~17 ~-83 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~17 ~-83 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~16 ~-82 ~-2 minecraft:unpowered_repeater 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~15 ~-81 ~-3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~15 ~-80 ~-1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~15 ~-80 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~15 ~-77 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~15 ~-77 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~14 ~-76 ~-2 minecraft:unpowered_repeater 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ /summon Villager ~ ~ ~"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ /setblock ~1 ~ ~1 minecraft:crafting_table"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=4] ~ ~ ~ /setblock ~1 ~ ~-1 minecraft:enchanting_table"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ detect ~ ~3 ~ minecraft:planks 3 /fill ~2 ~4 ~2 ~-2 ~4 ~-2 minecraft:stonebrick 0"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ detect ~ ~3 ~ minecraft:planks 3 /fill ~3 ~4 ~3 ~-3 ~4 ~-3 minecraft:stone_slab 3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ /fill ~-5 ~-1 ~-5 ~5 ~-1 ~5 minecraft:gravel"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ detect ~ ~5 ~ minecraft:mossy_cobblestone 0 /fill ~2 ~4 ~ ~-2 ~4 ~ minecraft:air"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ detect ~ ~5 ~ minecraft:mossy_cobblestone 0 /fill ~ ~4 ~2 ~ ~4 ~-2 minecraft:air"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ detect ~ ~4 ~ minecraft:cobblestone 0 /fill ~2 ~5 ~2 ~-2 ~5 ~-2 minecraft:brick_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ detect ~ ~4 ~ minecraft:cobblestone 0 /fill ~3 ~5 ~3 ~-3 ~5 ~-3 minecraft:stone_slab 4"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~-1 ~ ~ ~-1 ~-13 ~ minecraft:redstone_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/say 5 seconds..."},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~13 ~-62 ~-3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~13 ~-61 ~-1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~13 ~-61 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~13 ~-58 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-12 ~ ~ ~-12 ~ ~13 ~-58 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~12 ~-57 ~-2 minecraft:unpowered_repeater 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~11 ~-56 ~-3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~11 ~-55 ~-1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~11 ~-55 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~11 ~-52 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-11 ~ ~ ~-11 ~ ~11 ~-52 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~10 ~-51 ~-2 minecraft:unpowered_repeater 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=6] ~ ~ ~ /fill ~ ~3 ~2 ~ ~3 ~-2 minecraft:air"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=6] ~ ~ ~ /fill ~2 ~3 ~ ~-2 ~3 ~ minecraft:air"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ /fill ~ ~ ~-2 ~ ~1 ~-2 minecraft:air"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=1] ~ ~ ~ /setblock ~ ~6 ~ minecraft:gold_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=2] ~ ~ ~ /setblock ~-2 ~1 ~-1 minecraft:fence"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ /setblock ~ ~1 ~2 minecraft:fence"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Arrow] ~ ~ ~ /setblock ~-1 ~1 ~ minecraft:torch 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=2] ~ ~ ~ /fill ~2 ~ ~ ~2 ~1 ~ minecraft:air"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=3] ~ ~ ~ /fill ~2 ~6 ~2 ~-2 ~6 ~-2 minecraft:nether_brick"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=3] ~ ~ ~ /fill ~3 ~6 ~3 ~-3 ~6 ~-3 minecraft:stone_slab 6"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~-1 ~ ~ ~-1 ~-4 ~ minecraft:redstone_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-5 ~ ~ ~-5 ~ ~6 ~-38 ~-3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-3 ~ ~ ~-3 ~ ~4 ~-37 ~-3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-4 ~ ~ ~-4 ~ ~9 ~-36 ~-1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-4 ~ ~ ~-5 ~ ~9 ~-36 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/kill @e[type=WitherSkull]"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @p ~ ~ ~ /summon WitherSkull ~ ~ ~ {ExplosionPower:0,direction:[0.0,0.0,0.0]}"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=3] ~ ~ ~ detect ~ ~3 ~ minecraft:air 0 /fill ~2 ~-1 ~2 ~-2 ~5 ~-2 minecraft:mossy_cobblestone 0 hollow"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow] ~ ~ ~ /fill ~2 ~-1 ~2 ~-2 ~3 ~-2 minecraft:planks 3 hollow"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=WitherSkull] ~ ~ ~ /execute @e[type=Arrow,c=6] ~ ~ ~ /fill ~2 ~-1 ~2 ~-2 ~4 ~-2 minecraft:cobblestone 0 hollow"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~-1 ~ ~ ~-1 ~-12 ~ minecraft:redstone_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/say 15 seconds..."},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~8 ~-26 ~-2 minecraft:unpowered_repeater 13"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~7 ~-25 ~-2 minecraft:unpowered_repeater 13"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-9 ~ ~ ~-9 ~ ~6 ~-25 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-9 ~ ~ ~-9 ~ ~6 ~-23 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~5 ~-22 ~-2 minecraft:unpowered_repeater 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-8 ~ ~ ~-8 ~ ~4 ~-22 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-9 ~ ~ ~-9 ~ ~4 ~-20 ~-1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-9 ~ ~ ~-9 ~ ~4 ~-19 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~3 ~-18 ~-2 minecraft:unpowered_comparator 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/clone ~ ~-8 ~ ~ ~-8 ~ ~2 ~-17 ~-2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~19 ~-15 ~-1 ~ ~-15 ~-3 minecraft:stained_glass 0"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @e[type=Bat] ~ ~ ~ /summon Arrow ~ ~ ~ {Motion:[0.0,-1.0,0.0]}"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @p ~ ~ ~ /spreadplayers ~ ~ 8 20 false @e[type=Bat]"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/execute @p ~ ~ ~ /summon Bat ~ ~15 ~ {Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat,Riding:{id:FallingSand,Riding:{id:Bat}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/scoreboard players set @a start 0"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/kill @e[type=Arrow]"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/kill @e[type=Bat]"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/testfor @p[score_start_min=1]"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~-1 ~ ~ ~-1 ~-13 ~ minecraft:redstone_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~2 ~-7 ~-2 ~19 ~-7 ~-2 minecraft:quartz_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~1 ~-5 ~-2 minecraft:unpowered_comparator 1"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/summon Item ~ ~-3 ~-3 {Item:{id:stone,Count:1}}"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~ ~-2 ~-3 minecraft:hopper 3"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/setblock ~ ~-1 ~-2 minecraft:hopper 2"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/scoreboard objectives add start stat.useItem.minecraft.snowball start"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/fill ~1 ~1 ~-3 ~ ~1 ~-2 minecraft:quartz_block"},Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:redstone_block,Time:1,DropItem:0,Riding:
+{id:FallingSand,Block:command_block,TileEntityData:{Command: "/scoreboard objectives remove start"},Time:1,DropItem:0
+}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}
